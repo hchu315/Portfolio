@@ -49,6 +49,14 @@
 		-webkit-text-size-adjust: none;
 	}
 
+/* Custom styles */
+
+/* skills */
+.skills-container {
+	display: flex;
+	flex-direction: row;	
+}
+
 /* Box Model */
 
 	*, *:before, *:after {
@@ -4226,14 +4234,18 @@
 				width: calc(100% + 2rem);
 			}
 
-			/* skills */
-			/* .skills-container {
-				display: flex;
-				flex-direction: column-reverse;
-			}
-
-			ul {
-				display: inline;
-				background-color: red;
-			} */
+		
 		}
+
+.skills-container {
+	display: flex;
+	/* flex-direction: column;	 */
+	justify-content: space-around;
+}
+
+.links-container {
+	display: flex;
+	justify-content: space-between;
+}
+
+		
